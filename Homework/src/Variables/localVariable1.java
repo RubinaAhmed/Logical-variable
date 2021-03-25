@@ -2,13 +2,18 @@ package Variables;
 
 public class localVariable1 {
 	
-	public void age() {
-		int age= 34;
+	public static void age() {
+		 int age= 34;
+		 System.out.println(age);
 	} 
 	
-	public void name() {
+	public static void name() {
 		String name ="rubina"; 
-		
+		System.out.println(name);
 	}
 	
+	public static void main(String[] args) {
+		age();
+		name();
+	}
 }
